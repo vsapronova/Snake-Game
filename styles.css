@@ -1,0 +1,74 @@
+
+html, body, button {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F5F5;
+    color: #192249;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20vw;
+    height: 20vw;
+    border: solid 10px slategrey;
+    border-radius: 10px;
+    background-color: #192249;
+    margin-top: 2rem;
+}
+
+.square {
+    width: 1vw;
+    height: 1vw;
+}
+
+.snake {
+    background-color:#fd6401;
+    border-radius: 2px;
+}
+
+.apple {
+    background-color: #68e768;
+    border-radius: 2px;
+}
+
+#start {
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: solid 5px slategrey;
+    color: #F2F5F5;
+    background-color: #192249;
+    cursor: pointer;
+    outline: none;
+    padding: 0.25rem;
+    margin: 2rem 0;
+    font-size: 1rem;
+}
+
+.is-disabled {
+    margin-top: 2rem;
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .grid {
+      width: 80vw;
+      height: 80vw;
+    }
+  
+    .square {
+      width: 2vw;
+      height: 2vw;
+    }
+}
