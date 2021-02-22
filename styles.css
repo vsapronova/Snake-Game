@@ -20,7 +20,7 @@ html, body, button {
     flex-wrap: wrap;
     width: 20vw;
     height: 20vw;
-    border: solid 10px slategrey;
+    border: solid 5px slategrey;
     border-radius: 10px;
     background-color: #192249;
     margin-top: 2rem;
@@ -45,7 +45,7 @@ html, body, button {
     width: 10rem;
     height: 2.5rem;
     border-radius: 10px;
-    border: solid 5px slategrey;
+    border: solid 3px slategrey;
     color: #F2F5F5;
     background-color: #192249;
     cursor: pointer;
@@ -53,6 +53,12 @@ html, body, button {
     padding: 0.25rem;
     margin: 2rem 0;
     font-size: 1rem;
+}
+
+#start:hover {
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
 .is-disabled {
